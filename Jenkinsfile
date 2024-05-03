@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
+                echo 'Testing to verify that Jenkins automatically triggers a build'
             }
         }
         stage('Test') {
